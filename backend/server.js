@@ -4,7 +4,6 @@
 //IMPORTANT: Follow .env configuration instructions in utilities/jwt.js and db.js files
 
 const express = require("express");                                                                         //Import Express for backend
-const cors = require("cors");                                                                               //Import Cors for react requests
 const dotenv = require("dotenv");                                                                           //Import Dotenv for environment variables to keep passwords and keys separate from source code
 dotenv.config();
 
