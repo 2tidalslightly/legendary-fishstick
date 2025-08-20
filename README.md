@@ -28,7 +28,7 @@ I wanted to design something that was free to use and open-source, as I prefer u
     - Rename the “.env.example” file in the frontend folder to “.env”.  
 5. Backend setup:  
     - Change directories to the “./backend” folder.  
-    - Run the “npm install axios bcrypt dotenv express jsonwebtoken mysql2” command to install necessary dependencies.  
+    - Run the “npm install axios bcrypt cors dotenv express jsonwebtoken mysql2” command to install necessary dependencies.  
     - Start the server using the “node server.js” command.  
 6. Frontend setup:  
     - Change directories to the “./frontend” folder.  
