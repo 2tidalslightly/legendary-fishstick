@@ -1,5 +1,4 @@
 //Server driver
-//npm install express cors dotenv mysql2 bcrypt jsonwebtoken axios bootstrap
 //IMPORTANT: Verify .gitignore file is added in backend folder, with .env file added to file, to prevent uploading gitignore data to GitHub
 //IMPORTANT: Follow .env configuration instructions in utilities/jwt.js and db.js files
 
@@ -9,7 +8,6 @@ dotenv.config();
 
 const app = express();                                                                                      //Establish server
 app.use(express.json());                                                                                    //Parse incoming requests
-app.use(cors());                                                                                            //Interaction with react
 app.use("/recommendation", require("./routes/recommendation"));                                             //Configure path to recommendation route definitions
 app.use("/user", require("./routes/user"));                                                                 //Configure path to user route definitions
 app.use("/watchlist", require("./routes/watchlist"));                                                       //Configure path to watchlist route definitions
